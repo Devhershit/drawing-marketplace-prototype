@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery - Modern Art Marketplace</title>
+    <meta name="description" content="Discover and purchase stunning artwork from talented artists around the world. Browse our curated collection of modern art.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="loader-container" id="page-loader">
+        <div class="loader"></div>
+    </div>
+
+    <div class="main" role="main">
+        <div class="nav" role="navigation" aria-label="Main Navigation">
+            <div class="nav-part-1">
+                <img src="logo-removebg-preview.png" alt="Art Gallery Logo" tabindex="0">
+                <ul>
+                    <li tabindex="0" role="button" aria-label="Home page">Home</li>
+                    <li tabindex="0" role="button" aria-label="Shop page">Shop</li>
+                    <li tabindex="0" role="button" aria-label="Artist page">Artist</li>
+                    <li tabindex="0" role="button" aria-label="Gallery page">Gallery</li>
+                    <li tabindex="0" role="button" aria-label="Contact page">Contact</li>
+                </ul>
+            </div>
+            <div class="nav-part-2">
+                
+                <i class="ri-shopping-cart-line" title="Cart" tabindex="0" role="button" aria-label="Open shopping cart"></i>
+                <i class="ri-user-line" id="user-icon" title="User Account" tabindex="0" role="button" aria-label="User account"></i>
+                <i class="ri-menu-line" id="menu-icon" title="Menu" tabindex="0" role="button" aria-label="Open menu"></i>
+            </div>
+        </div>
+        
+        <!-- Horizontal Search Bar -->
+        <div class="horizontal-search-container" role="search">
+            <div class="search-wrapper">
+                <input type="text" id="horizontal-search" placeholder="Search for artwork, artists, or styles..." aria-label="Search for artwork">
+                <div class="search-filters">
+                    <select id="category-filter">
+                        <option value="">All Categories</option>
+                        <option value="portrait">Portraits</option>
+                        <option value="abstract">Abstract</option>
+                        <option value="landscape">Landscape</option>
+                        <option value="conceptual">Conceptual</option>
+                        <option value="dark">Dark Art</option>
+                        <option value="urban">Urban</option>
+                    </select>
+                    <select id="price-filter">
+                        <option value="">Any Price</option>
+                        <option value="0-100">Under $100</option>
+                        <option value="100-200">$100 - $200</option>
+                        <option value="200-300">$200 - $300</option>
+                        <option value="300+">$300+</option>
+                    </select>
+                </div>
+                <button id="search-button"><i class="ri-search-line"></i></button>
+            </div>
+            <div id="quick-tags">
+                <span class="tag">Abstract</span>
+                <span class="tag">Portrait</span>
+                <span class="tag">Digital Art</span>
+                <span class="tag">Sculpture</span>
+                <span class="tag">New Arrivals</span>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="content-left">
+                <h5>Explore</h5>
+                <h1>The world's top Designers & Creatives</h1>
+                <p>Art is a diverse range of human activities involving the creation of visual, auditory or performing artifacts artworks, which express the creator's imagination, conceptual ideas, or technical skill, intended to be appreciated primarily for their beauty or emotional power.</p>
+                <button class="btn">Shop Now</button>
+                <div class="pic"> 
+                    <img src="swan-transparent.png" alt="Minimalist Face Art" class="line-art">
+                </div>
+        
+            </div>
+            <div class="content-right">
+                <div class="product">
+                    <img src="image-2.jpg" alt="tiger">
+                    <h4>Godess</h4>
+                    <p>by John Doe</p>
+                    <p>$200</p>
+                   
+                </div>
+            </div>
+        </div>
+        <div class="content-bottom">
+            <div class="content-bottom-left">
+                <h1>Featured Products</h1>
+                <p>Art is a diverse range of human activities involving the creation of visual, auditory or performing artifacts artworks, which express the creator's imagination, conceptual ideas, or technical skill, intended to be appreciated primarily for their beauty or emotional power.</p>
+            </div>
+            <div class="shop-section">
+                <div class="box-1">
+                    <div class="box-content">
+                        <h2>Third Eye</h2>
+                        <img src="image-3.jpg" alt="Third Eye">
+                        <p>See More</p>
+                    </div>
+                </div>
+
+                <div class="box-6">
+                    <div class="box-content">
+                        <h2>Mirror</h2>
+                        <img src="image-8.jpg" alt="Mirror">
+                        <p>See More</p>
+                    </div>
+                </div>
+
+                <div class="box-2">
+                    <div class="box-content">
+                        <h2>HELL-SKULL</h2>
+                        <img src="image-4.jpg" alt="HELL">
+                        <p>See More</p>
+                    </div>
+                </div>
+
+                <div class="box-3">
+                    <div class="box-content">
+                        <h2>Decay and Rebirth</h2>
+                        <img src="image-5.jpg" alt="Ocean">
+                        <p>See More</p>
+                    </div>
+                </div>
+
+                <div class="box-4">
+                    <div class="box-content">
+                        <h2>Mask of Mortality</h2>
+                        <img src="image-6.jpg" alt="Mask">
+                        <p>See More</p>
+                    </div>
+                </div>
+                
+                <div class="box-7">
+                    <div class="box-content">
+                        <h2>Urban Decay</h2>
+                        <img src="image-9.jpg" alt="Urban">
+                        <p>See More</p>
+                    </div>
+                </div>
+                
+                <div class="box-8">
+                    <div class="box-content">
+                        <h2>Abstract Thoughts</h2>
+                        <img src="image-10.jpg" alt="Abstract">
+                        <p>See More</p>
+                    </div>
+                </div>
+            </div>
+
+  </div>
+
+  <!-- Trendy Gallery Section -->
+  
+
+  <!-- Featured Artists Section -->
+  
+
+  <!-- Artist Detail Modal -->
+  <div class="artist-modal" id="artist-modal">
+    <div class="artist-modal-content">
+      <div class="artist-modal-header">
+        <div class="artist-modal-profile">
+          <div class="artist-modal-avatar" id="modal-avatar"></div>
+          <div class="artist-modal-info">
+            <h2 id="modal-artist-name"></h2>
+            <p id="modal-artist-specialty"></p>
+          </div>
+        </div>
+        <button class="artist-modal-close"><i class="ri-close-line"></i></button>
+      </div>
+      <div class="artist-modal-body">
+        <div class="artist-modal-bio">
+          <h3>About the Artist</h3>
+          <p id="modal-artist-bio"></p>
+        </div>
+        <div class="artist-modal-gallery">
+          <h3>Featured Works</h3>
+          <div class="artist-gallery-grid" id="modal-artist-gallery">
+            <!-- Artist works will be populated here dynamically -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-panel-1" id="back-to-top">
+        Back To Top
+    </div>
+    <div class="footer-panel-2">
+        <div class="footer-list">
+            <ul>
+                <li data-target="home">Home</li>
+                <li data-target="shop">Shop</li>
+                <li data-target="artist">Artist</li>
+                <li data-target="gallery">Gallery</li>
+                <li data-target="contact">Contact</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-panel-3">
+        <img src="logo.jpg" alt="logo" class="logo">
+    </div>
+    
+    <div class="footer-social">
+        <a href="#" class="social-icon"><i class="ri-facebook-fill"></i></a>
+        <a href="#" class="social-icon"><i class="ri-instagram-line"></i></a>
+        <a href="#" class="social-icon"><i class="ri-twitter-x-line"></i></a>
+        <a href="#" class="social-icon"><i class="ri-pinterest-line"></i></a>
+        <a href="#" class="social-icon"><i class="ri-youtube-line"></i></a>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>&copy; 2024 Modern Art Gallery. All rights reserved.</p>
+        <p>Designed with <i class="ri-heart-fill" style="color: var(--primary-color);"></i> by hershit</p>
+    </div>
+  </footer>
+   
+  <!-- JavaScript -->
+  <script src="first.js"></script>
+  
+  <!-- Mobile Menu Overlay -->
+  <div class="menu-overlay" id="menu-overlay">
+    <div class="menu-content">
+        <div class="menu-header">
+            <img src="logo.jpg" alt="logo" class="menu-logo">
+            <i class="ri-close-line" id="close-menu"></i>
+        </div>
+        <ul class="menu-items">
+            <li data-target="home">Home</li>
+            <li data-target="shop">Shop</li>
+            <li data-target="artist">Artist</li>
+            <li data-target="gallery">Gallery</li>
+            <li data-target="contact">Contact</li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
+
